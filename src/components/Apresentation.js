@@ -3,7 +3,6 @@ import Header from "./Header";
 
 export default function Apresentation(){
     return(
-        
         <ContainerApresentation>
             <div>
                 <img src="image0.jpeg" alt="Andréa" />

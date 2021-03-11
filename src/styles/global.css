@@ -11,7 +11,7 @@
     --pink: #e28d8c;
     --brown: #d9a87e;
 }
-/* @media(max-width: 1080px){
+@media(max-width: 1080px){
     html{
         font-size:93.75%;
     }
@@ -21,7 +21,7 @@
     html{
         font-size:87.5%;
     }
-} */
+}
 
 html {
     font: 400 1rem 'Montserrat', sans-serif;
