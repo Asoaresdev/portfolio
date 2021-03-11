@@ -1,19 +1,24 @@
 import styled from 'styled-components'
 
 export const ContainerApresentation = styled.div`
-    min-height:50vh;
-    /* position: absolute;
-    top:0; */
+    min-height:70vh;
     display:flex;
     margin-top:-5rem;
     min-width:100vw; 
+    
         div{
             display:flex;
         }
 
+        div >img {
+            @media (max-width: 481px){
+                display:none;
+            }
+        }
         img{
             max-height:95vh;
             max-width:50vw;
+            
         }
 
         div:last-child{
@@ -30,6 +35,12 @@ export const ContainerApresentation = styled.div`
             flex-direction: column;
             align-self:center;
             justify-self:center;
+            padding-top:2rem;
+            
+            @media (max-width: 481px){
+                padding-left:8rem;
+                padding-top:4rem;
+            }
         }
         
         div > h1 {
@@ -47,9 +58,6 @@ export const ContainerApresentation = styled.div`
             font-weight:normal;
         }
 
-        li > img {
-            
-        }
         
 `
 export const ContainerSocialMedia = styled.div`
@@ -60,7 +68,4 @@ export const ContainerSocialMedia = styled.div`
     li{
         margin:1.5rem 0;
     }
-`
-export const Teste = styled.div`
-/* position: relative; */
 `

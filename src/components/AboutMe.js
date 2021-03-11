@@ -17,7 +17,7 @@ export default function AboutMe() {
                     <li>React</li>
                     <li>Git</li>
                 </ul>
-                <a href="andrea_soares-cv2021.pdf"> <Button>CV em PDF</Button></a>
+                <a href="andrea_soares-cv2021.pdf" target="blank"> <Button>CV em PDF</Button></a>
                 
             </div>
             <div>

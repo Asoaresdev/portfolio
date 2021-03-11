@@ -5,6 +5,7 @@ display:grid;
 grid-template-columns: 1fr 1fr;
 background: var(--yellow);
 min-width:100vw; 
+min-height:70vh;
 
 div {
     max-height: 70vh;
@@ -42,8 +43,6 @@ ul > li{
     grid-template-columns: 1fr;
     justify-content:center;
     align-items:center;
-    background:red;
-    
 }
 `
 
