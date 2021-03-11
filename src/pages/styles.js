@@ -1,7 +1,7 @@
-import styled from 'styled-components'
+// import styled from 'styled-components'
 
-export const ContainerApp = styled.div`
-min-width: 100vw;
+// export const ContainerApp = styled.div`
+// min-width: 100vw;
 
 
-`
+// `
