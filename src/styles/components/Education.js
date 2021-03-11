@@ -7,18 +7,23 @@ export const ContainerEducation = styled.section`
         grid-template-columns:1fr 1fr;  
         margin-top: -2rem;
         z-index:0;
+        @media (max-width:481px){
+            grid-template-columns:1fr;
+    }
         
         
     }
      h2 {
-        /* background:#f2c12e; */
         font-weight:bold;
         text-align: center;
         font-size: 1.56rem;
         z-index:10;
         position:relative;
         color:white;
-        /* margin-top:0.5rem; */
+        @media (max-width:481px){
+            font-size: 2.56rem;
+    }
+        
     }
     div > div{
         display:flex;
@@ -43,13 +48,22 @@ export const ContainerCard1 = styled.div`
         font-size:1.31rem;
         letter-spacing:-0.28px;
         color:white;
+        @media (max-width:481px){
+            font-size: 2.35rem
+        }
     }
     p:last-child{
         margin:1.5rem 0;
+        @media (max-width:481px){
+            font-size: 1.35rem
+        }
     }
 `
 export const ContainerCard2 = styled.div`
-    background:var(--brown);
+    background:var(--orange);
+    @media (max-width:481px){
+        background:var(--pink);
+        }
     div{
         max-width:75%;
     }
@@ -58,8 +72,14 @@ export const ContainerCard2 = styled.div`
         font-size:1.31rem;
         letter-spacing:-0.28px;
         color:white;
+        @media (max-width:481px){
+            font-size: 2.35rem
+        }
     }
     p:last-child{
         margin:1.5rem 0;
+        @media (max-width:481px){
+            font-size: 1.35rem
+        }
     }
 `

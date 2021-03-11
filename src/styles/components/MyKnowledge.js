@@ -13,16 +13,26 @@ export const ContainerMyKnowledge = styled.section`
     h3{
         margin:1rem 0;
         font-weight:normal;
+        @media (max-width:481px){
+            font-size: 1.35rem
+    }
     }
 
     h1{
         margin-bottom:2rem;
         font-weight:bold;
-        font-size:2.65rem
+        font-size:2.65rem;
+        @media (max-width:481px){
+            font-size: 3.65rem;
+    }
     }
 
     p{
         text-align:center;
         padding-bottom:2rem;
+        @media (max-width:481px){
+            font-size: 1.35rem
     }
+    }
+    
 `

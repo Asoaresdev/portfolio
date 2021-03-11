@@ -9,9 +9,15 @@ export const ContainerFooter = styled.footer`
     align-items:center;
     min-height:60vh;
     align-content:space-between;
+    @media (max-width:481px){
+            padding:3rem 0;
+        }
 
     h1 {
         color:white;
+        @media (max-width:481px){
+            font-size: 2.35rem;
+        }
     }    
     div {
         color:white;
@@ -20,6 +26,9 @@ export const ContainerFooter = styled.footer`
     div > p{
         padding:1rem;
         text-align:center;
+        @media (max-width:481px){
+            font-size: 1.35rem;
+        }
     }
     div > ul {
     display: flex;
