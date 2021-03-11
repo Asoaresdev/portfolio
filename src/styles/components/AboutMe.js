@@ -6,6 +6,7 @@ grid-template-columns: 1fr 1fr;
 background: var(--yellow);
 min-width:100vw; 
 min-height:70vh;
+padding: 4rem 0;
 
 div {
     max-height: 70vh;
@@ -16,6 +17,9 @@ div {
     justify-content:center;
     align-items:center;
     padding: 5rem;
+    @media (max-width:481px){
+        margin: 3rem ;
+    }
 }
 }
 
