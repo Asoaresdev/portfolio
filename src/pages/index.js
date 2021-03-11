@@ -13,8 +13,8 @@ export default function Home() {
   return (
     <div>
     {/* <ContainerApp> */}
-      <Header />
-      <Apresentation />
+    <Header />
+    <Apresentation />
     {/* </ContainerApp> */}
     <AboutMe />
     <MyKnowledge />
