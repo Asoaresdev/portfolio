@@ -23,6 +23,8 @@ export const ContainerHeader = styled.header`
         text-decoration: none;
         font-weight:bold;
         color: #3d3635;
-        /* font-weight:normal; */
+        @media (max-width:481px){
+            font-size: 1.8rem;
+    }
     }
 `

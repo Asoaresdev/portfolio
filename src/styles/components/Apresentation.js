@@ -48,6 +48,9 @@ export const ContainerApresentation = styled.div`
             color: #ffffff;
             font-size: 50px;
             letter-spacing: -0.29px;
+            @media (max-width:481px){
+                font-size: 3.35rem;
+    }
         }
 
         div > h2 {
@@ -56,6 +59,9 @@ export const ContainerApresentation = styled.div`
             font-size: 24px;
             letter-spacing: -0.29px;
             font-weight:normal;
+            @media (max-width:481px){
+                font-size: 2.35rem;
+    }
         }
 
         
@@ -67,5 +73,13 @@ export const ContainerSocialMedia = styled.div`
 
     li{
         margin:1.5rem 0;
+        
     }
+    a > img {
+        
+        @media (max-width:481px){
+            width:50%;
+    }
+    }
+   
 `
