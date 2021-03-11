@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ContainerApp = styled.div`
-/* position: relative; */
+min-width: 100vw;
 
 
 `

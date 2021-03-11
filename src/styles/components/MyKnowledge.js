@@ -2,15 +2,16 @@ import styled from 'styled-components'
 
 export const ContainerMyKnowledge = styled.section`
     background: var(--green);
-    min-height:30vh;
+    min-height:50vh;
     display: flex;
     flex-direction:column;
     align-items:center;
     justify-content:center;
-    padding:3rem;
+    padding:2rem;
+    min-width:100vw;
 
     h3{
-        margin:2rem 0;
+        margin:1rem 0;
         font-weight:normal;
     }
 
@@ -22,5 +23,6 @@ export const ContainerMyKnowledge = styled.section`
 
     p{
         text-align:center;
+        padding-bottom:2rem;
     }
 `

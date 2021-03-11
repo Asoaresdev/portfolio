@@ -6,6 +6,7 @@ import AboutMe from '../components/AboutMe'
 import MyKnowledge from '../components/MyKnowledge'
 import Education from '../components/Education'
 import MyProjects from '../components/MyProjects'
+import Footer from '../components/Footer'
 
 
 export default function Home() {
@@ -19,8 +20,7 @@ export default function Home() {
     <MyKnowledge />
     <Education />
     <MyProjects />
-  
-   
+    <Footer />
     </div>
   )
 }
