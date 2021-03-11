@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 import Apresentation from '../components/Apresentation'
-import { ContainerApp } from './styles'
+// import { ContainerApp } from './styles'
 import AboutMe from '../components/AboutMe'
 import MyKnowledge from '../components/MyKnowledge'
 import Education from '../components/Education'
@@ -12,10 +12,10 @@ import Footer from '../components/Footer'
 export default function Home() {
   return (
     <div>
-    <ContainerApp>
+    {/* <ContainerApp> */}
       <Header />
       <Apresentation />
-    </ContainerApp>
+    {/* </ContainerApp> */}
     <AboutMe />
     <MyKnowledge />
     <Education />
