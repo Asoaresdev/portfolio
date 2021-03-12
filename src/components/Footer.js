@@ -17,6 +17,7 @@ export default function Footer() {
                     <li><a href="https://api.whatsapp.com/send?phone=5521994001144&text=Olá,%20vamos%20bater%20um%20papo" target="_blank"> <img src="group3.svg" alt="" /></a></li>
                     <li><a href="https://github.com/Asoaresdev"> <img src="fill-1-copy.svg" alt="" /></a></li> 
                 </ul> 
+                <h4>asoaredev-2021</h4>
             </div>
         </ContainerFooter>
     )

@@ -7,7 +7,7 @@ export const ContainerMyKnowledge = styled.section`
     flex-direction:column;
     align-items:center;
     justify-content:center;
-    padding:2rem;
+    padding:2rem 0 3.5rem 0;
     min-width:100vw;
 
     h3{
@@ -15,7 +15,7 @@ export const ContainerMyKnowledge = styled.section`
         font-weight:normal;
         @media (max-width:481px){
             font-size: 2.35rem
-    }
+        }
     }
 
     h1{
@@ -24,7 +24,7 @@ export const ContainerMyKnowledge = styled.section`
         font-size:2.65rem;
         @media (max-width:481px){
             font-size: 3.65rem;
-    }
+        }
     }
 
     p{
@@ -32,7 +32,7 @@ export const ContainerMyKnowledge = styled.section`
         padding-bottom:2rem;
         @media (max-width:481px){
             font-size: 2.35rem
-    }
+        }
     }
     
 `
