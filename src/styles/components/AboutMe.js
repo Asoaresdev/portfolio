@@ -4,22 +4,23 @@ export const ContainerAboutMe = styled.section`
 display:grid;
 grid-template-columns: 1fr 1fr;
 background: var(--yellow);
+justify-content:center;
+align-items:center;
 min-width:100vw; 
-min-height:70vh;
-padding: 4rem 0;
+min-height:100vh;
+/* padding: 2rem 0 1rem 0; */
 
 div {
-    max-height: 70vh;
+    /* min-height: 70vh; */
     padding:5rem 2rem 2rem 10rem;
     @media (max-width: 481px) {
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    padding: 5rem;
-    @media (max-width:481px){
-        margin: 3rem ;
-    }
+    padding: 2rem 3rem;
+    /* border:1px solid; */
+    
 }
 }
 
@@ -28,19 +29,21 @@ div > h1 {
     font-size:2.65rem;
     @media (max-width:481px){
         font-size: 3.35rem;
-        padding-top:4rem;
+        padding:2rem 0;
     }
 }
 
 div > p{
     letter-spacing:-0.16px;
     @media (max-width:481px){
-        font-size: 1.35rem;
+        font-size: 2.35rem;
+        text-align:justify;
     }
 }
 
 div > ul {
     display: flex;
+    margin-bottom:2rem;
 }
 
 ul > li{
@@ -48,7 +51,7 @@ ul > li{
     border-left: 5px solid white;
     padding-left: 0.3rem;
     @media (max-width:481px){
-        font-size: 1.35rem
+        font-size: 2.35rem
     }
 }
 
@@ -57,7 +60,7 @@ ul > li{
     justify-content:center;
     align-items:center;
     min-width:100vw;
-    padding-top:3rem;
+    padding-top:2rem;
     
 }
 `
@@ -77,9 +80,9 @@ a:hover & {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.7);
 }
     @media (max-width:481px){
-        font-size: 1.35rem;
-        width: 10.75rem;
-        height: 2.87rem;
+        font-size: 2.35rem;
+        width: 18.75rem;
+        height: 3.87rem;
         padding: 8px 33px 10px 34px;
         margin: 35px 15px 30px 0;
     }

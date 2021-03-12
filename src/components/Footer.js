@@ -9,7 +9,7 @@ export default function Footer() {
                 Procuro oportunidade de trabalho onde eu possa aprender,
                 me desenvolver e evoluir na minha carreia profissional.
                 </p>
-                <p>E-mail para contato: asoaresdev@gmail.com.br</p>
+                <p>E-mail para contato: asoaresdev@gmail.com</p>
             </div>
             <div>
                 <ul>

@@ -14,7 +14,7 @@ export const ContainerMyKnowledge = styled.section`
         margin:1rem 0;
         font-weight:normal;
         @media (max-width:481px){
-            font-size: 1.35rem
+            font-size: 2.35rem
     }
     }
 
@@ -31,7 +31,7 @@ export const ContainerMyKnowledge = styled.section`
         text-align:center;
         padding-bottom:2rem;
         @media (max-width:481px){
-            font-size: 1.35rem
+            font-size: 2.35rem
     }
     }
     
