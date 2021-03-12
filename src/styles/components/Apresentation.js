@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ContainerApresentation = styled.div`
-    min-height:580px;
+    min-height:80vh;
     display:flex;
     margin-top:-5rem;
     min-width:100vw; 
@@ -16,8 +16,11 @@ export const ContainerApresentation = styled.div`
         }
     }
     img{
-        max-height:90vh;
+        max-height:80vh;
         max-width:50vw;    
+        @media (max-width: 481px){
+            width:100%;
+        }
     }
 
     div:last-child{
