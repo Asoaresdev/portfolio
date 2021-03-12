@@ -2,18 +2,18 @@ import styled from 'styled-components'
 
 export const ContainerMyProjects = styled.section`
     display:grid;
-    grid-template-rows: 1fr 3fr 3fr 3fr;
+    grid-template-rows: 1fr 4fr 4fr 4fr;
     justify-items:center;
     align-items:center;
-    border:1px solid red;
     min-width:100vw;
-
+    margin-bottom:2.12rem;
+    
     h1{
         letter-spacing:-0.15px;
         font-size:1.56rem;
         margin-top: 2.12rem;
         @media (max-width:481px){
-            font-size: 2.35rem
+            font-size: 3.35rem
         }
     }
  
@@ -24,12 +24,28 @@ export const ContainerProject = styled.div`
     grid-template-columns:1fr 1fr;
     margin-bottom: 1rem;
     padding-right:4rem;
-    
+    @media (max-width:481px){
+        font-size: 3.35rem;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        margin:3rem;
+        padding-right:0;
+        }
+    div:last-child{
+        @media (max-width:481px){
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content:center
+        }
+    }
     h1{
         font-size:2.65rem;
         letter-spacing:-0.15px;
         @media (max-width:481px){
-            font-size: 3.35rem
+            font-size: 4.35rem
         }
     }
     div:first-child {
@@ -40,10 +56,16 @@ export const ContainerProject = styled.div`
     h2{
         margin:0 0 1rem 0;
         font-weight:normal;
+        @media (max-width:481px){
+            font-size: 4.35rem;
+            padding-bottom:1rem;
+        }
     }
     p{
         @media (max-width:481px){
-            font-size: 1.35rem
+            font-size: 2.35rem;
+            text-align:center;
+            padding:1.5rem;
         }
     }
     button {
@@ -56,9 +78,9 @@ export const ContainerProject = styled.div`
         margin:1.39rem 1.39rem 0 0; 
         cursor: pointer; 
         @media (max-width:481px){
-            font-size: 1.35rem;
-            width: 10.75rem;
-            height:2.85rem
+            font-size: 2.5rem;
+            width: 21.75rem;
+            height:4rem
         } 
     }
     button:hover{
