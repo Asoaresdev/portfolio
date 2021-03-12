@@ -73,8 +73,8 @@ export const ContainerProject = styled.div`
         border:none;
         width: 8.75rem;
         height:1.85rem;
-        border-radius:0.25rem;
-        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+        border-radius:0.5rem;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.6);
         margin:1.39rem 1.39rem 0 0; 
         cursor: pointer; 
         @media (max-width:481px){

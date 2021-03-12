@@ -16,7 +16,7 @@ export const ContainerFooter = styled.footer`
     h1 {
         color:white;
         @media (max-width:481px){
-            font-size: 2.35rem;
+            font-size: 2.5rem;
         }
     }    
     div {
@@ -27,7 +27,7 @@ export const ContainerFooter = styled.footer`
         padding:1rem;
         text-align:center;
         @media (max-width:481px){
-            font-size: 1.35rem;
+            font-size: 1.8rem;
         }
     }
     div > ul {

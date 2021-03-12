@@ -16,7 +16,7 @@ export default function Education() {
                     <div>
                     <h4>Curso de Front End na Reprograma</h4>
                     <p>3 meses-2019</p>
-                    <p>Curso de 80 horas com o seguinte conteúdo: HTML, CSS, JavaScrip, aplicação responsiva, Bootstrap, jQuery. </p>
+                    <p>Curso de 80 horas com o seguinte conteúdo: HTML, CSS, JavaScript, aplicação responsiva, Bootstrap, jQuery. </p>
                     </div>
                 </ContainerCard2>
             </div>

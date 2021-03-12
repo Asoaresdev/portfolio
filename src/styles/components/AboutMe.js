@@ -8,10 +8,8 @@ justify-content:center;
 align-items:center;
 min-width:100vw; 
 min-height:100vh;
-/* padding: 2rem 0 1rem 0; */
 
 div {
-    /* min-height: 70vh; */
     padding:5rem 2rem 2rem 10rem;
     @media (max-width: 481px) {
     display:flex;

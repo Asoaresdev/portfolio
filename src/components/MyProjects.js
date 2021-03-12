@@ -21,7 +21,7 @@ export default function MyProjects() {
                         </button>
                         <button>
                         <a href="https://labenu-ifuture.vercel.app/" target="blank">
-                            Link da aplicação
+                            Link Ifuture
                         </a>
                         </button>
                     </ContainerButtons>
@@ -43,7 +43,7 @@ export default function MyProjects() {
                         </button>
                         <button>
                         <a href="https://nlw-trilha-react-movedev.vercel.app/" target="blank">
-                            Ver no Github
+                            Link MoveDev
                         </a>
                         </button>
                     </ContainerButtons>

@@ -10,6 +10,9 @@ export const ContainerHeader = styled.header`
     h2{
         margin:0;
         color:#fff;
+        @media (max-width:481px){
+            font-size: 2rem;
+        }
     }
     ul{
         display:inline;
@@ -24,7 +27,7 @@ export const ContainerHeader = styled.header`
         font-weight:bold;
         color: #3d3635;
         @media (max-width:481px){
-            font-size: 1.8rem;
-    }
+            font-size: 2rem;
+        }
     }
 `
